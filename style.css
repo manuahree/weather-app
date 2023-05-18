@@ -1,27 +1,25 @@
-.container {
-    text-align: center;
-    margin-top: 100px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f1eeee;
+    position: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('cloud_pictures.jpg');
+    font-size: 120%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
-  h1 {
-    color: #333;
+  .card {
+    background: #0f0f0fd0;
+    position: center;
+    color: rgb(16, 15, 15);
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
   }
-  
-  input[type="text"] {
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  #weatherInfo {
-    margin-top: 20px;
-  }
-  
